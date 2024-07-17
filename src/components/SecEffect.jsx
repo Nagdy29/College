@@ -4,7 +4,7 @@ import img2 from "../assets/يوم-المهنه.jpg";
 export const SecEffect = () => {
   return (
     <>
-      <div className="sec-effe flex justify-between p-20">
+      <div className="sec-effe flex justify-between p-20 flex-col  lg:flex-row">
         <div className="text-center flex justify-center items-center py-4  relative">
           <h2 className="text-5xl font-bold  text-white ">الفعاليات</h2>
         </div>

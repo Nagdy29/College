@@ -11,8 +11,8 @@ export const Prog = () => {
           <h2 className="text-4xl font-bold text-prog ">برامجنا</h2>
         </div>
         {/* imdges */}
-        <div className="flex flex-col md:flex-row justify-center flex-wrap">
-          <div className="card  w-[400px] md:w-[600px]  shadow-sm">
+        <div className="flex flex-col md:flex-row justify-start  md:justify-center flex-wrap  ">
+          <div className="card  w-[300px] md:w-[600px]  shadow-sm">
             <figure className="px-10 pt-10">
               <img src={img1} alt=".." className="rounded-xl" />
             </figure>
@@ -28,7 +28,7 @@ export const Prog = () => {
               </div>
             </div>
           </div>
-          <div className="card  w-[400px] md:w-[600px]  shadow-sm">
+          <div className="card  w-[300px] md:w-[600px]  shadow-sm">
             <figure className="px-10 pt-10">
               <img src={img2} alt=".." className="rounded-xl" />
             </figure>
@@ -45,7 +45,7 @@ export const Prog = () => {
               </div>
             </div>
           </div>
-          <div className="card  w-[400px] md:w-[600px]  shadow-sm">
+          <div className="card  w-[300px] md:w-[600px]  shadow-sm">
             <figure className="px-10 pt-10">
               <img src={img4} alt=".." className="rounded-xl" />
             </figure>
@@ -62,12 +62,12 @@ export const Prog = () => {
               </div>
             </div>
           </div>
-          <div className="card  w-[400px] md:w-[600px]  shadow-sm">
+          <div className="card  w-[300px] md:w-[600px]  shadow-sm">
             <figure className="px-10 pt-10">
               <img
                 src={img3}
                 alt=".."
-                className="rounded-xl h-[400px] w-[600px]"
+                className="rounded-xl h-[300px] w-[600px]"
               />
             </figure>
             <div className="card-body items-center text-center">

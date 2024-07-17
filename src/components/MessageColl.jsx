@@ -12,7 +12,7 @@ export const MessageColl = () => {
         <div className="text-center flex justify-center py-4  relative">
           <h2 className="text-4xl font-bold text-prog ">الأنظمة الإلكترونية</h2>
         </div>
-        <div className="p-20 flex flex-col md:flex-row gap-8 justify-center items-center md:gap-32">
+        <div className="p-20 flex flex-col  lg:flex-row gap-8 justify-center items-center md:gap-32">
           <div className="w-[125px]   h-[125px] rounded-full flex justify-center ">
             <div className="flex justify-center items-center flex-col gap-3">
               {" "}

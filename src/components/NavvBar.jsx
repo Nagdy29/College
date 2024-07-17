@@ -6,7 +6,7 @@ export const NavvBar = () => {
     <>
       <div className="container mx-auto bg-transparent  px-8 py-3 flex justify-center items-center">
         <div className="navbar  ">
-          <div className="navbar-start">
+          <div className="navbar-start flex flex-col items-center justify-center">
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -88,7 +88,7 @@ export const NavvBar = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-end flex justify-center items-center gap-11">
+          <div className="navbar-end flex justify-center items-center gap-11 flex-col lg:flex-row">
             <div className="flex gap-8 items-center justify-center ">
               <div className="relative">
                 <input

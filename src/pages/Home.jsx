@@ -6,17 +6,19 @@ import { SecTitle } from "../components/SecTitle";
 import { MessageColl } from "../components/MessageColl";
 import { SecEffect } from "../components/SecEffect";
 import { Fotter } from "../components/Fotter";
+import VideoModal from "../components/VideoModal";
 
 export const Home = () => {
   return (
     <>
       <div>
         <NavvBar />
+
         <div className="video-container p-24">
           <video className="video" src={backgroundVideo} autoPlay loop muted />
           <div className="overlay">
-            <div className="content my-5">
-              <h1 className="text-4xl font-bold mb-4  my-4  lg:w-[1200px] flex justify-center items-center">
+            <div className="content my-5 ">
+              <h1 className="lg:text-4xl w-[300px]  text-center font-bold mb-4  my-4  lg:w-[1200px] flex justify-start md:justify-center items-center">
                 {" "}
                 فتح باب القبول لبرامج البكالوريوس وبرنامج ماجستير إدارة الأعمال
                 التنفيذي EMBA للفصل الدراسي الأول للعام 1446هـ{" "}
@@ -35,10 +37,13 @@ export const Home = () => {
                   الرسوم الدراسيه
                 </button>
               </div>
-              <div className="my-4">
+              <div className="my-4 flex justify-center gap-8 items-center flex-col md:flex-row">
                 <button className="btn btn-active btn-success w-80 h-14 text-2xl">
                   التحق الان
                 </button>
+                <div>
+                  <VideoModal />
+                </div>
               </div>
             </div>
           </div>
