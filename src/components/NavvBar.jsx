@@ -30,24 +30,30 @@ export const NavvBar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-6"
               >
                 <li>
-                  <a>Item 1</a>
+                  <a className="text-[22px] link-nav font-bold text-gray-600 hover:text-blue-800 bg-white ">
+                    عن الجامعه
+                  </a>
                 </li>
                 <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                  <a className="text-[22px] link-nav  font-bold text-gray-600 hover:text-blue-800 bg-white ">
+                    {" "}
+                    برامجنا
+                  </a>
                 </li>
                 <li>
-                  <a>Item 3</a>
+                  <a className="text-[22px] link-nav font-bold text-gray-600 hover:text-blue-800 bg-white ">
+                    {" "}
+                    التحق الان
+                  </a>
+                </li>
+                <li>
+                  <a className="text-[22px] link-nav font-bold text-gray-600 hover:text-blue-800 bg-white ">
+                    {" "}
+                    الأسئلة الأكثر شيوعاً
+                  </a>
                 </li>
               </ul>
             </div>
